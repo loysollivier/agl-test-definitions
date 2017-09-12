@@ -1,0 +1,10 @@
+metadata:
+  name: metadataname-basictest
+  format: "Lava-Test-Shell Test Definition 1.0"
+  description: "A basic test definition."
+run:
+  steps:
+  - lava-test-set start constant
+  - echo "Hello"
+  - lava-test-case always-pass --result pass
+  - lava-test-set stop constant

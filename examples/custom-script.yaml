@@ -1,0 +1,7 @@
+metadata:
+  name: metadataname-custom-script-test
+  format: "Lava-Test-Shell Test Definition 1.0"
+  description: "A test definition running a custom script."
+run:
+  steps:
+    - ./examples/custom-scripts/smoke-test-script.sh
